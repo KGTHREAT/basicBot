@@ -238,7 +238,7 @@
     var botCreatorIDs = ["4856169", "5565914"];
 
     var basicBot = {
-        version: "3.5.4",
+        version: "3.5.5",
         status: false,
         name: "Rave Bot",
         loggedInID: null,
@@ -2036,7 +2036,7 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                              API.sendChat("/me Karl Bot commands: https://goo.gl/oX3C3r");
+                              API.sendChat("/me Rave Bot commands: https://goo.gl/oX3C3r");
                     }
                 }
             },
